@@ -16,6 +16,7 @@
                          <h2 class="text-center">Laravel CRUD | Insert Record</h2>
                          <hr>
                          <a href="{{url('show')}}" class="btn btn-outline-info">View Records</a>
+                         <a href="{{url('/')}}" class="btn btn-outline-info">Go to Main Page</a>
                          @if(Session::get('Success'))
                          <div class="alert alert-success">
                               {{Session::get('Success')}}
